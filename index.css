@@ -1,3 +1,43 @@
+section {
+    margin: 0 20px;
+}
+
+.rotated-div {
+    background-color: #376CF0;
+    transform: rotate(350deg);
+    position: absolute;
+    width: 150vw;
+    height: 600px;
+    z-index: -1;
+    top: -412px;
+    left: -103px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+}
+
 .top-photo {
     background-image: url('./dylan.jpeg');
+    min-height: 300px;
+    width: clamp(320px, 25vw, 800px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about-container {
+    background-color: white;
+    max-height: 250px;
+}
+
+.name {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
