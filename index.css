@@ -45,6 +45,32 @@ section {
 
 .top-photo,
 .about-container,
-.rotated-div {
+.rotated-div,
+.card {
   box-shadow: 2px 0px 14px 0px rgba(62, 62, 62, 0.75);
+}
+
+.cards-container {
+  display: grid;
+}
+
+.work-section {
+  margin-top: 6rem;
+}
+
+.card {
+  max-width: 300px;
+}
+
+.card-img {
+  max-width: 300px;
+}
+
+.card-img img {
+  object-fit: cover;
+  max-width: 300px;
+}
+
+.card-info {
+  margin: 10px;
 }
